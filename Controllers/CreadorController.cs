@@ -7,27 +7,27 @@ using System.Threading.Tasks;
 
 namespace Lab4DefDef.Controllers
 {
-    public class CreadorController1 : Controller
+    public class CreadorController : Controller
     {
-        // GET: CreadorController1
+        // GET: CreadorController
         public ActionResult Index()
         {
             return View();
         }
 
-        // GET: CreadorController1/Details/5
+        // GET: CreadorController/Details/5
         public ActionResult Details(int id)
         {
             return View();
         }
 
-        // GET: CreadorController1/Create
+        // GET: CreadorController/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: CreadorController1/Create
+        // POST: CreadorController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
@@ -42,13 +42,13 @@ namespace Lab4DefDef.Controllers
             }
         }
 
-        // GET: CreadorController1/Edit/5
+        // GET: CreadorController/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: CreadorController1/Edit/5
+        // POST: CreadorController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
@@ -63,13 +63,13 @@ namespace Lab4DefDef.Controllers
             }
         }
 
-        // GET: CreadorController1/Delete/5
+        // GET: CreadorController/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: CreadorController1/Delete/5
+        // POST: CreadorController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, IFormCollection collection)
